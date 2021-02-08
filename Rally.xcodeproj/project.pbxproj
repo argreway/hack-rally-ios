@@ -3,27 +3,43 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1E3D54FF25CC6835004FCEA5 /* RallyRestClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E3D54FE25CC6835004FCEA5 /* RallyRestClient.swift */; };
+		1E3D550225CC69E0004FCEA5 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 1E3D550125CC69E0004FCEA5 /* Podfile */; };
+		1EBE1D6F25CC9030007FD2BF /* MainTabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EBE1D6E25CC9030007FD2BF /* MainTabViewController.swift */; };
+		1EBE1D7725CCA3A6007FD2BF /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EBE1D7625CCA3A6007FD2BF /* HomeViewController.swift */; };
+		1EBE1D7A25CDC08D007FD2BF /* USTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EBE1D7925CDC08C007FD2BF /* USTableViewController.swift */; };
+		1EBE1D8D25CDDAB4007FD2BF /* SearchTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EBE1D8C25CDDAB4007FD2BF /* SearchTableViewController.swift */; };
 		1EDA0E5225CC4E8D00B84A30 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EDA0E5125CC4E8D00B84A30 /* AppDelegate.swift */; };
 		1EDA0E5425CC4E8D00B84A30 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EDA0E5325CC4E8D00B84A30 /* SceneDelegate.swift */; };
-		1EDA0E5625CC4E8D00B84A30 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EDA0E5525CC4E8D00B84A30 /* ViewController.swift */; };
 		1EDA0E5925CC4E8D00B84A30 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1EDA0E5725CC4E8D00B84A30 /* Main.storyboard */; };
 		1EDA0E5B25CC4E8F00B84A30 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1EDA0E5A25CC4E8F00B84A30 /* Assets.xcassets */; };
 		1EDA0E5E25CC4E8F00B84A30 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1EDA0E5C25CC4E8F00B84A30 /* LaunchScreen.storyboard */; };
+		1EDA0E6B25CC598000B84A30 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EDA0E6A25CC598000B84A30 /* LoginViewController.swift */; };
+		95B157695406D0E479A21FE6 /* Pods_Rally.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9B3BB7AE57F509C16A67F42 /* Pods_Rally.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1E3D54FE25CC6835004FCEA5 /* RallyRestClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RallyRestClient.swift; sourceTree = "<group>"; };
+		1E3D550125CC69E0004FCEA5 /* Podfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
+		1EBE1D6E25CC9030007FD2BF /* MainTabViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabViewController.swift; sourceTree = "<group>"; };
+		1EBE1D7625CCA3A6007FD2BF /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		1EBE1D7925CDC08C007FD2BF /* USTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = USTableViewController.swift; sourceTree = "<group>"; };
+		1EBE1D8C25CDDAB4007FD2BF /* SearchTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchTableViewController.swift; sourceTree = "<group>"; };
 		1EDA0E4E25CC4E8D00B84A30 /* Rally.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Rally.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1EDA0E5125CC4E8D00B84A30 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1EDA0E5325CC4E8D00B84A30 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		1EDA0E5525CC4E8D00B84A30 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		1EDA0E5825CC4E8D00B84A30 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1EDA0E5A25CC4E8F00B84A30 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1EDA0E5D25CC4E8F00B84A30 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1EDA0E5F25CC4E8F00B84A30 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1EDA0E6A25CC598000B84A30 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		31FB7D8318562925F879FA33 /* Pods-Rally.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Rally.release.xcconfig"; path = "Target Support Files/Pods-Rally/Pods-Rally.release.xcconfig"; sourceTree = "<group>"; };
+		74456CDA71A499009D0BF31A /* Pods-Rally.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Rally.debug.xcconfig"; path = "Target Support Files/Pods-Rally/Pods-Rally.debug.xcconfig"; sourceTree = "<group>"; };
+		B9B3BB7AE57F509C16A67F42 /* Pods_Rally.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Rally.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +47,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				95B157695406D0E479A21FE6 /* Pods_Rally.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,8 +57,11 @@
 		1EDA0E4525CC4E8D00B84A30 = {
 			isa = PBXGroup;
 			children = (
+				1E3D550125CC69E0004FCEA5 /* Podfile */,
 				1EDA0E5025CC4E8D00B84A30 /* Rally */,
 				1EDA0E4F25CC4E8D00B84A30 /* Products */,
+				E391B278AB89AAA8ED1ECE01 /* Pods */,
+				7650484B1332D1F51AD934E7 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +76,45 @@
 		1EDA0E5025CC4E8D00B84A30 /* Rally */ = {
 			isa = PBXGroup;
 			children = (
+				1EDA0E6825CC58E600B84A30 /* home */,
 				1EDA0E5125CC4E8D00B84A30 /* AppDelegate.swift */,
 				1EDA0E5325CC4E8D00B84A30 /* SceneDelegate.swift */,
-				1EDA0E5525CC4E8D00B84A30 /* ViewController.swift */,
 				1EDA0E5725CC4E8D00B84A30 /* Main.storyboard */,
-				1EDA0E5A25CC4E8F00B84A30 /* Assets.xcassets */,
+				1EBE1D8C25CDDAB4007FD2BF /* SearchTableViewController.swift */,
+				1EBE1D7925CDC08C007FD2BF /* USTableViewController.swift */,
+				1EBE1D7625CCA3A6007FD2BF /* HomeViewController.swift */,
+				1EBE1D6E25CC9030007FD2BF /* MainTabViewController.swift */,
 				1EDA0E5C25CC4E8F00B84A30 /* LaunchScreen.storyboard */,
 				1EDA0E5F25CC4E8F00B84A30 /* Info.plist */,
+				1EDA0E5A25CC4E8F00B84A30 /* Assets.xcassets */,
 			);
 			path = Rally;
+			sourceTree = "<group>";
+		};
+		1EDA0E6825CC58E600B84A30 /* home */ = {
+			isa = PBXGroup;
+			children = (
+				1EDA0E6A25CC598000B84A30 /* LoginViewController.swift */,
+				1E3D54FE25CC6835004FCEA5 /* RallyRestClient.swift */,
+			);
+			path = home;
+			sourceTree = "<group>";
+		};
+		7650484B1332D1F51AD934E7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B9B3BB7AE57F509C16A67F42 /* Pods_Rally.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E391B278AB89AAA8ED1ECE01 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				74456CDA71A499009D0BF31A /* Pods-Rally.debug.xcconfig */,
+				31FB7D8318562925F879FA33 /* Pods-Rally.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +124,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1EDA0E6225CC4E8F00B84A30 /* Build configuration list for PBXNativeTarget "Rally" */;
 			buildPhases = (
+				4AA52BD1CD4B65684A761476 /* [CP] Check Pods Manifest.lock */,
 				1EDA0E4A25CC4E8D00B84A30 /* Sources */,
 				1EDA0E4B25CC4E8D00B84A30 /* Frameworks */,
 				1EDA0E4C25CC4E8D00B84A30 /* Resources */,
+				A8B2777E6FD0EBA6CEE44F15 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -126,20 +178,68 @@
 			files = (
 				1EDA0E5E25CC4E8F00B84A30 /* LaunchScreen.storyboard in Resources */,
 				1EDA0E5B25CC4E8F00B84A30 /* Assets.xcassets in Resources */,
+				1E3D550225CC69E0004FCEA5 /* Podfile in Resources */,
 				1EDA0E5925CC4E8D00B84A30 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		4AA52BD1CD4B65684A761476 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Rally-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A8B2777E6FD0EBA6CEE44F15 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Rally/Pods-Rally-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Rally/Pods-Rally-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Rally/Pods-Rally-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		1EDA0E4A25CC4E8D00B84A30 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1EDA0E5625CC4E8D00B84A30 /* ViewController.swift in Sources */,
+				1EBE1D6F25CC9030007FD2BF /* MainTabViewController.swift in Sources */,
+				1EDA0E6B25CC598000B84A30 /* LoginViewController.swift in Sources */,
 				1EDA0E5225CC4E8D00B84A30 /* AppDelegate.swift in Sources */,
+				1EBE1D7A25CDC08D007FD2BF /* USTableViewController.swift in Sources */,
+				1E3D54FF25CC6835004FCEA5 /* RallyRestClient.swift in Sources */,
 				1EDA0E5425CC4E8D00B84A30 /* SceneDelegate.swift in Sources */,
+				1EBE1D7725CCA3A6007FD2BF /* HomeViewController.swift in Sources */,
+				1EBE1D8D25CDDAB4007FD2BF /* SearchTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -283,6 +383,7 @@
 		};
 		1EDA0E6325CC4E8F00B84A30 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 74456CDA71A499009D0BF31A /* Pods-Rally.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -302,6 +403,7 @@
 		};
 		1EDA0E6425CC4E8F00B84A30 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 31FB7D8318562925F879FA33 /* Pods-Rally.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
